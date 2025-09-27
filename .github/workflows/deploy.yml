@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch:
 
 permissions:
   contents: read
@@ -26,15 +25,9 @@ jobs:
         with:
           node-version: 22
       - name: Install Dependencies
-        run: |
-          cd quartz
-          npm ci
+        run: npm ci
       - name: Build Quartz
-        run: |
-          cd quartz
-          npm run quartz build
-          cd ..
-          cp -r quartz/public .
+        run: npx quartz build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
