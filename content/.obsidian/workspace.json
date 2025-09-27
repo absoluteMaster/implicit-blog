@@ -1,0 +1,223 @@
+{
+  "main": {
+    "id": "06a0da5067a1a8b5",
+    "type": "split",
+    "children": [
+      {
+        "id": "cdf6684492eef98c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4116a0ed07740590",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "articles.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "articles"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6553cc7f0063a837",
+    "type": "split",
+    "children": [
+      {
+        "id": "dc05630fc8b34b0a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f180c7a6c2cecec6",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ed7a1a36acea7ffa",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "d934711b8f239423",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 327.5
+  },
+  "right": {
+    "id": "5b867d141cf8f134",
+    "type": "split",
+    "children": [
+      {
+        "id": "135bb7ac23e0ddba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d65f26dad9981b69",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "articles.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for articles"
+            }
+          },
+          {
+            "id": "48cd27b0f83b218a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "articles.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from articles"
+            }
+          },
+          {
+            "id": "aff096df0c384811",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e44b58316409198b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "articles.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of articles"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "4116a0ed07740590",
+  "lastOpenFiles": [
+    "index.md",
+    "private/raw/A starter.md",
+    "articles.md",
+    "Templating.md",
+    "private/Notes/2024-09-17.md",
+    "private/Notes/Untitled.md",
+    "private/Notes/Untitled 1.md",
+    "private/Notes/Untitled 2.md",
+    "private/Shots of courage parts.md",
+    "private/Shots of Courage.md",
+    "private/raw/Death Note.md",
+    "private/raw/Awareness.md",
+    "private/raw/Mawlid.md",
+    "articles/upcoming/You Might Need Me.md",
+    "articles/upcoming/The turning point.md",
+    "articles/upcoming/The Origins.md",
+    "articles/upcoming/Mind your Arguments..md",
+    "articles/upcoming/Keep it to Yourself..md",
+    "articles/upcoming/A Sensation Of Getting Better.md",
+    "templates/Articles Listing.md",
+    "articles/published/Shots Of Courage.md",
+    "images/sample1.jpg",
+    "images/sample.jpg",
+    "images/sample2.jpg",
+    "private/Untitled.md",
+    "templates/Draft Template.md",
+    "templates/Index Templating.md",
+    "private/upcoming/Fasting.md",
+    "private/upcoming/Necessary Support.md",
+    "private/Untitled",
+    "private/Notes",
+    "Untitled",
+    "private/published",
+    "private/Untitled Folder",
+    "private/upcoming",
+    "private/raw",
+    "private",
+    "images/sample6.jpg",
+    "images/sample5.jpg",
+    "images/sample4.jpg",
+    "images/sample3.jpg",
+    "images",
+    "images/wet-sphere-reflective-water-abstract-beauty-generated-by-ai.jpg",
+    "images/Modern Orange Facade Against Blue Sky.jpeg",
+    "images/logo.png",
+    "Untitled Folder"
+  ]
+}
