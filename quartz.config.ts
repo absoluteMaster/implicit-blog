@@ -98,9 +98,8 @@ const config: QuartzConfig = {
       Plugin.Latex({ renderEngine: "katex" }),
     ],
     filters: [
-      Plugin.StatusFilter({
-        allowedStatuses: ["published", "review"]
-      })
+      Plugin.RemoveDrafts(),
+      Plugin.ExplicitPublish()
     ],
     emitters: [
       Plugin.AliasRedirects(),
