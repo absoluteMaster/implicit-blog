@@ -106,6 +106,17 @@
   }
 }
 
+/* Header layout with logo and dark mode toggle */
+header {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 2rem 2rem 1rem 2rem !important;
+  position: relative !important;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 /* Logo styling */
 .page-title {
   font-family: "Playfair Display", serif !important;
@@ -113,11 +124,42 @@
   font-weight: 400 !important;
   margin: 0 !important;
   color: var(--text-normal);
+  flex: 1 !important;
+  text-align: left !important;
 }
 
 .page-title a {
   text-decoration: none !important;
   color: inherit !important;
+}
+
+/* Dark mode toggle positioning */
+#darkmode-toggle {
+  position: relative !important;
+  top: auto !important;
+  right: auto !important;
+  z-index: 999 !important;
+  background: var(--lightgray) !important;
+  border: 1px solid var(--gray) !important;
+  border-radius: 50% !important;
+  width: 2.5rem !important;
+  height: 2.5rem !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer !important;
+  transition: all 0.2s ease !important;
+}
+
+#darkmode-toggle:hover {
+  background: var(--gray) !important;
+  transform: scale(1.05) !important;
+}
+
+#darkmode-toggle svg {
+  width: 1.2rem !important;
+  height: 1.2rem !important;
+  fill: var(--dark) !important;
 }
 
 /* Clean layout adjustments */
@@ -126,4 +168,27 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 2rem 1rem;
+}
+
+/* Mobile responsive header */
+@media (max-width: 768px) {
+  header {
+    padding: 1.5rem 1rem 1rem 1rem !important;
+    flex-direction: row !important;
+  }
+
+  .page-title {
+    font-size: 2.5rem !important;
+    text-align: left !important;
+  }
+
+  #darkmode-toggle {
+    width: 2rem !important;
+    height: 2rem !important;
+  }
+
+  #darkmode-toggle svg {
+    width: 1rem !important;
+    height: 1rem !important;
+  }
 }
